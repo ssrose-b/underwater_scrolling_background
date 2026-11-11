@@ -153,6 +153,10 @@ module map_rom (
 endmodule
 
 // One unified 256-tile BG ROM: 256 tiles x 16 x 16 pixels.
+// Tile indices 0..59: dithered ocean depth.
+// Tile indices 64..123: dithered light-shaft variants.
+// Tile 128: Seabed Sand, 129: Kelp Forest, 130: Coral Reef,
+// Tile 131: Shipwreck, 132..191: Bubble Trail over each ocean depth.
 module bg_rom (
     input  wire       clk,
     input  wire [7:0] tile,

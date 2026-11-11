@@ -11,6 +11,7 @@ Files used:
 * Coral Reef - 16x16
 * Shipwreck - 16x16
 * Bubble Trail - 8x8
+* Rocky Seabed - 32x32 (split into four 16x16 wall tiles)
 
 Source pages:
 
@@ -19,6 +20,7 @@ Source pages:
 * https://freegamesprites.com/en/assets/coral-reef-tile
 * https://freegamesprites.com/en/assets/shipwreck-bg
 * https://freegamesprites.com/en/assets/bubble-trail-effect
+* https://freegamesprites.com/en/assets/underwater-rocky-seabed
 
 License: CC0 1.0
 

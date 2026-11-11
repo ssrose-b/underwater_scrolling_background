@@ -36,6 +36,6 @@ Assets are from the [Underwater Reef Pack](https://freegamesprites.com/en/packs/
 The ocean gradient and Bayer 4x4 dithering follow the original Verilog design.
 The PNG tiles are converted to RGB222 and packed into `data/bg-rom.mem`.
 `data/map.mem` stores the 80x60 tile map and selects which tile is displayed.
-The cave blocks are part of the map and use four 16x16 quadrants from
-`rocky-seabed.png`.
+The cave blocks are part of the map and use 16 deterministic variations made
+from the four 16x16 quadrants of `rocky-seabed.png`.
 

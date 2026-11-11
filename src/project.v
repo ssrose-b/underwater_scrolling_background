@@ -157,7 +157,8 @@ endmodule
 // Tile indices 64..123: dithered light-shaft variants.
 // Tile 128: Seabed Sand, 129: Kelp Forest, 130: Coral Reef,
 // Tile 131: Shipwreck, 132..191: Bubble Trail over each ocean depth.
-// Tile indices 192..195: four 16x16 quadrants of the Rocky Seabed wall.
+// Tile indices 192..207: 16 Rocky Seabed wall variants made from four
+// quadrants with horizontal, vertical, and 180-degree transformations.
 module bg_rom (
     input  wire       clk,
     input  wire [7:0] tile,
